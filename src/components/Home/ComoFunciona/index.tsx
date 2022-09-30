@@ -10,14 +10,33 @@ export default function ComoFunciona(): JSX.Element {
       minHeight="100vh"
       position="relative"
       display="flex"
-      flexDirection="column"
+      flexDirection={{ base: 'column-reverse', lg: 'column' }}
       alignItems="center"
       justifyContent="center"
       padding="3rem 0 10rem 0"
       backgroundColor="#DA729A"
       color="white"
     >
-      <Container>
+      <chakra.figure
+        opacity={{ base: '1', lg: '0.2' }}
+        position={{ base: 'relative', lg: 'absolute' }}
+        top="0"
+        left="0"
+        width="100%"
+        height="100%"
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        padding={{ base: '2rem 0 0 0', lg: '0' }}
+      >
+        <chakra.img
+          src="/images/sessao-de-hipnoterapia.png"
+          alt="Sessão de hipnoterapia"
+          width={{ base: '90%', lg: '80%' }}
+        />
+      </chakra.figure>
+
+      <Container position="relative">
         <Heading
           as="h2"
           fontSize="2.5rem"
@@ -76,27 +95,8 @@ export default function ComoFunciona(): JSX.Element {
         </Grid>
       </Container>
 
-      <chakra.figure
-        opacity={{ base: '1', lg: '0.2' }}
-        position={{ base: 'relative', lg: 'absolute' }}
-        top="0"
-        left="0"
-        width="100%"
-        height="100%"
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        padding={{ base: '2rem 0 0 0', lg: '0' }}
-      >
-        <chakra.img
-          src="/images/sessao-de-hipnoterapia.png"
-          alt="Sessão de hipnoterapia"
-          width={{ base: '90%', lg: '80%' }}
-        />
-      </chakra.figure>
-
       <chakra.figure position="absolute" bottom="0" left="0" width="100%">
-        <chakra.img src={footer} width="100%" />
+      <chakra.img src={footer} width="100%" height="200px" objectFit="cover" objectPosition="center" />
       </chakra.figure>
     </chakra.div>
   );

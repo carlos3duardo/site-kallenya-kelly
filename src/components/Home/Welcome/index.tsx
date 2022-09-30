@@ -2,7 +2,7 @@ import { chakra } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 
 import logoImage from '../../../assets/images/logo.svg';
-import wave from './footer.svg';
+import footer from './footer.svg';
 
 export default function Welcome(): JSX.Element {
   return (
@@ -28,7 +28,7 @@ export default function Welcome(): JSX.Element {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <chakra.img src={wave} width="100%" />
+          <chakra.img src={footer} width="100%" height="200px" objectFit="cover" objectPosition="center" />
         </motion.div>
       </chakra.figure>
     </chakra.div>
