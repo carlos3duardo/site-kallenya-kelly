@@ -28,7 +28,13 @@ export default function Welcome(): JSX.Element {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <chakra.img src={footer} width="100%" height="200px" objectFit="cover" objectPosition="center" />
+          <chakra.img
+            src={footer}
+            width="100%"
+            height="200px"
+            objectFit="cover"
+            objectPosition="center"
+          />
         </motion.div>
       </chakra.figure>
     </chakra.div>

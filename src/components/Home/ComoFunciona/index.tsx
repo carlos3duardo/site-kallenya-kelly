@@ -96,7 +96,13 @@ export default function ComoFunciona(): JSX.Element {
       </Container>
 
       <chakra.figure position="absolute" bottom="0" left="0" width="100%">
-      <chakra.img src={footer} width="100%" height="200px" objectFit="cover" objectPosition="center" />
+        <chakra.img
+          src={footer}
+          width="100%"
+          height="200px"
+          objectFit="cover"
+          objectPosition="center"
+        />
       </chakra.figure>
     </chakra.div>
   );
