@@ -1,78 +1,23 @@
-<p align="center">
-  <img src="./public/readme/banner.jpg" width="100%" alt="Banner" />
-</p>
+## Sobre
 
-## About
+Site do consultório de hipoterapia da Kallenia Kelly. Construído com ReactJS utilizando o framework Next.js.
 
-This is a ready [Next.js](https://nextjs.org) code structure with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Chakra UI](https://chakra-ui.com) and [Prettier](https://prettier.io) to start new projects.
+Entre as sessões, há uma transição de cores utilizando ondas. Tais transições foram criadas pelo site [Haikei](https://app.haikei.app). e utilizando as configurações abaixo:
 
-Online demo: [https://nextjs-template-cenarioweb.vercel.app/](https://nextjs-template-cenarioweb.vercel.app/)
+|Propriedade|Valor|
+|---|---|
+|Tamanho|1920x160|
+|Direção|Para cima|
+|Cor de fundo|Transparente|
+|Cor da 1a onda|Utilize a cor desejada|
+|Cor da 2a onda|Utilize a cor desejada|
+|Direção das cores|De cima para baixo|
+|Balance|9/10|
+|Wave count|4/12|
+|Complexity|12/22|
+|Contrast|10/11|
+|Overlap|3/11|
 
-## Pre-requisites
-
-Before you begin, you will need to have the following tools installed on your machine:
-
-- [Git](https://git-scm.com)
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/)
-
-In addition, it is good to have an editor to work with the code like [Visual Studio Code](https://code.visualstudio.com/).
-
-## How to use
-
-You just clone this repo or click in **Use this template** button to create a new project from this template.
-
-<p align="center">
-  <img src="./public/readme/git-use-this-template.png" width="100%" alt="Use this template" />
-</p>
-
-Input the name of your awesome project and click in **Create repository com template**.
-
-<p align="center">
-  <img src="./public/readme/git-create-repository.png" width="100%" alt="Use this template" />
-</p>
-
-## Running the application
-
-```bash
-
-# Clone your repository create from this template
-$ git clone git@github.com:<username>/<project-name> <project-folder>
-
-# Access the project folder in your terminal
-$ cd <project-folder>
-
-# Install the dependencies
-$ yarn
-
-# Run the application in development mode
-$ yarn dev
-
-# The application will open on the port: 3000 - go to http://localhost:3000
-
-```
-
-## That's it. You done!
-
-| Light mode | Dark Mode |
-|------------|-----------|
-|<img alt="Light mode" title="Light mode" src="./public/readme/screenshots-lightmode.jpg">|<img alt="Dark mode" title="Dark mode" src="./public/readme/screenshots-darkmode.jpg">|
-
-## Tech Stack
-
-The following tools were used in the construction of the project. Open the links to know more.
-
--   [React](https://reactjs.org)
--   [Next.js](https://nextjs.org)
--   [Chakra UI](https://chakra-ui.com)
--   [Framer Motion](https://www.framer.com/motion)
--   [TypeScript](https://www.typescriptlang.org)
--   [ESLint](https://eslint.org)
--   [Prettier](https://prettier.io)
--   [React Icons](https://react-icons.github.io/react-icons)
--   [EditorConfig](https://editorConfig.org)
-
-Check *package.json* for more packages include.
 
 ## Author
 
